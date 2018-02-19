@@ -1,5 +1,4 @@
-#include <algorithm>
-#include <iostream>
+/*#include <iostream>
 using namespace std;
 int main()
 {
@@ -7,7 +6,6 @@ int main()
 	ios_base::sync_with_stdio(false);
 	
 	string dir = "udlr";
-	sort(dir.begin(), dir.end());
 	int n, m;
 	cin>>n>>m;
 	string mat[n];
@@ -17,7 +15,7 @@ int main()
 	string instr;
 	cin>>instr;
 	do
-	{   int i=0, j=0;
+	{	int i=0, j=0;
 		for(int ia=0; ia<n; ia++)
 		{	for(int ja=0; ja<m; ja++)
 			{	if(mat[ia][ja]=='S')
@@ -28,7 +26,7 @@ int main()
 			}
 		}
 		int pass=1;
-		for(char dig: instr)
+		for(int dig:instr)
 		{	switch(dir[dig-'0'])
 			{	case 'u':	i--; break;
 				case 'd':	i++; break;
@@ -39,15 +37,10 @@ int main()
 			{	pass=0;
 				break;
 			}	
-			if(mat[i][j]=='E')
-			    break;
-			
 		}
-		if(pass && mat[i][j]=='E')
-		{	ans++;
-			cout << dir<<endl;
-		}
+		if(pass)
+			ans++;
 	}
-	while(next_permutation(dir.begin(), dir.end()));
+	while(next_permutation(dir, dir+4));
 	cout << ans;
-}
+}*/
