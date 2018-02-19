@@ -1,0 +1,12 @@
+import random
+n= 100000;
+k= 151;
+MAX = 1000000;
+x1= int(3*n/5)
+print (n);
+print (k);
+for i in range(x1) :
+    print(random.randint(MAX/10, MAX))
+seed = 47
+for i in range(n- x1) :
+    print((seed + random.randint(1, 10)*i*k) % MAX)

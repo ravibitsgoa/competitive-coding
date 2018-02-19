@@ -1,0 +1,1 @@
+./Debug/main.cpp.o ./Debug/up_HORRIBLE.cpp.o ./Debug/up_PRIME1.cpp.o ./Debug/up_SPCO.cpp.o ./Debug/up_DONALDO.cpp.o

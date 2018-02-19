@@ -1,0 +1,5 @@
+#include<stdio.h>
+int main()
+{ printf("%lu %lu",sizeof(int),sizeof(long int));
+  return 0;
+}

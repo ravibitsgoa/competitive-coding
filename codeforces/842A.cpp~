@@ -1,0 +1,20 @@
+#include<cmath>
+#include<iostream>
+using namespace std;
+int main()
+{
+	/*long long l, r, x, y, k;
+	cin>>l>>r>>x>>y>>k;
+	x*=k;
+	y*=k;
+	if(x>=l && x<=r || y<=r && y>=l)
+		cout<<"YES";
+	else
+		cout<<"NO";
+		*/
+	double k= pow(10, 7);
+	int i=k;
+	k*=i;
+	printf("%lf",k);
+	return 0;
+}

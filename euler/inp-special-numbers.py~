@@ -1,0 +1,5 @@
+t=10
+print t
+for i in range(t):
+    n=i
+    print n
